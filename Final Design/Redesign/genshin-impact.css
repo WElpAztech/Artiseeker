@@ -1,0 +1,29 @@
+@font-face {
+  font-family: HYWenHei;
+  src: url(genshin-impact.woff2) format("woff2"),
+    url(genshin-impact.woff) format("woff"),
+    url(genshin-impact.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Genshin Impact";
+  src: url(genshin-impact.woff2) format("woff2"),
+    url(genshin-impact.woff) format("woff"),
+    url(genshin-impact.ttf) format("truetype");
+}
+
+body {
+  font-family: "Genshin Impact", HYWenHei !important;
+  background-color: #202020;
+  overflow-x: hidden;
+}
+
+.parallax {
+  background-image: linear-gradient(to top, rgba(0,0,0,1) 45%, rgba(0,0,0,0) 70%), url("background.png");
+
+  min-height: 47vh;
+
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
